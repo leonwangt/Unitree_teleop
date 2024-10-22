@@ -1,0 +1,5 @@
+bool swith_on
+int32[] control_flag
+---
+bool success
+string message

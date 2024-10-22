@@ -1,0 +1,2 @@
+talker_listener_demo:utiles/iserve_msgs:utiles/iserve_srvs:utiles/jsoncpp:utiles/ringbuf
+-DCATKIN_DEVEL_PREFIX=/home/wang/Unitree_H1/ros1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wang/Unitree_H1/ros1_ws/install -G Unix Makefiles

@@ -1,0 +1,6 @@
+bool isWaitFinish
+int32 gripper_mode
+float64 command_cur
+float64 command_pos
+---
+bool success

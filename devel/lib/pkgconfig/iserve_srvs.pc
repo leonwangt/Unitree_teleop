@@ -1,0 +1,8 @@
+prefix=/home/wang/Unitree_H1/ros1_ws/devel
+
+Name: iserve_srvs
+Description: Description of iserve_srvs
+Version: 0.0.0
+Cflags: -I/home/wang/Unitree_H1/ros1_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs iserve_msgs

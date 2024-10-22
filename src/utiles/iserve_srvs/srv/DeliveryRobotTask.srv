@@ -1,0 +1,9 @@
+bool switch_on       #该次服务调用是否有效
+int32 scene_id       #场景id
+int32 look_id      #对几号抽屉进行抓放
+int32 place_id       #对抽屉的几号放置位进行放置
+string object_name   #抓取物体的名称
+float64 speed_scale  #用于调速，高中低三挡
+---
+bool success         #反馈服务是否调用成功
+string message       #相关的comment

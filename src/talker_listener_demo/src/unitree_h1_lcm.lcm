@@ -1,0 +1,56 @@
+package MotorCommandLcm;
+
+
+struct MotorCommand {
+  int32_t    kNumMotors;
+  float q_ref[kNumMotors];
+  float dq_ref[kNumMotors];
+  float kp[kNumMotors];
+  float kd[kNumMotors];
+  float tau_ff[kNumMotors];
+}
+
+struct MotorState {
+  int32_t  num_ranges;
+  int32_t    NumMotors;
+  int64_t    timestamp;
+  int16_t  ranges[num_ranges];
+  double q[20] ;
+  double dq[20] ;
+  int8_t     enabled;
+  string name;
+  
+
+
+}
+
+enum JointIndex {
+  // Right leg
+  kRightHipYaw = 8,
+  kRightHipRoll = 0,
+  kRightHipPitch = 1,
+  kRightKnee = 2,
+  kRightAnkle = 11,
+  // Left leg
+  kLeftHipYaw = 7,
+  kLeftHipRoll = 3,
+  kLeftHipPitch = 4,
+  kLeftKnee = 5,
+  kLeftAnkle = 10,
+
+  kWaistYaw = 6,
+
+  kNotUsedJoint = 9,
+
+  // Right arm
+  kRightShoulderPitch = 12,
+  kRightShoulderRoll = 13,
+  kRightShoulderYaw = 14,
+  kRightElbow = 15,
+  // Left arm
+  kLeftShoulderPitch = 16,
+  kLeftShoulderRoll = 17,
+  kLeftShoulderYaw = 18,
+  kLeftElbow = 19,
+
+}

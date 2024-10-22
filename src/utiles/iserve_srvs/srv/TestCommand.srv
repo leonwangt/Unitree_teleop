@@ -1,0 +1,35 @@
+#noiseTest, motionStabilityTest, loadTest, jointAngleTest, accuracyTest, powTest, breakTest, motionTest, goHome
+string testItem
+
+bool isLoad
+bool isSingleJoint
+
+#0, 1, 2, 3, 4, 5
+int32 jointNo
+
+# at least 1
+int32 cycleTimes
+float64 velocity
+
+# 1, 2, 3, 4, 5
+int32 pointIndex
+
+#toShelf, toLocker, goHome
+string segmentNo
+
+int32 startIndex
+int32 endIndex
+---
+bool success
+string testItem
+bool isLoad
+int32 cycleTimes
+float64 velocity
+bool isSingleJoint
+int32 jointNo
+string segmentNo
+int32 pointIndex
+int32 startIndex
+int32 endIndex
+
+

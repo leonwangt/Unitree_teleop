@@ -1,0 +1,8 @@
+#indicate start or stop plan
+bool swith_on
+float64[] end_pose
+float64[] joint_pos
+---
+bool success
+string message
+float64[] waypoints

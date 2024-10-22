@@ -1,0 +1,13 @@
+string task_id
+string plan_type
+float64 commandVel
+float64[] waypoints
+float64[] timeStamps
+int32 operation_mode
+# if move the arm according to the record file
+bool isFileTask
+bool isCartesian
+float64[] directCommand
+bool isWaitFinish
+---
+bool success

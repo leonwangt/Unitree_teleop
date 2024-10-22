@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wang/Unitree_H1/ros1_ws/src/utiles/ringbuf/include/ringbuf/ringbuf.h
+stdio.h
+-
+vector
+-
+atomic
+-
+thread
+-
+mutex
+-
+
+/home/wang/Unitree_H1/ros1_ws/src/utiles/ringbuf/src/ringbuf_node.cpp
+ringbuf/ringbuf.h
+/home/wang/Unitree_H1/ros1_ws/src/utiles/ringbuf/src/ringbuf/ringbuf.h
+iostream
+-
+future
+-
+chrono
+-
+time.h
+-
+

@@ -1,0 +1,2 @@
+set(iserve_msgs_MESSAGE_FILES "/home/wang/Unitree_H1/ros1_ws/src/utiles/iserve_msgs/msg/JointCommand.msg;/home/wang/Unitree_H1/ros1_ws/src/utiles/iserve_msgs/msg/JointState.msg;/home/wang/Unitree_H1/ros1_ws/src/utiles/iserve_msgs/msg/TaskStatus.msg;/home/wang/Unitree_H1/ros1_ws/src/utiles/iserve_msgs/msg/ManipulationCommand.msg;/home/wang/Unitree_H1/ros1_ws/src/utiles/iserve_msgs/msg/Position_cv_anmo.msg")
+set(iserve_msgs_SERVICE_FILES "")

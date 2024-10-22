@@ -1,0 +1,9 @@
+#indicate start or stop drag teach
+bool swith_on
+
+#record file name
+string task_id
+
+---
+bool success
+string message
